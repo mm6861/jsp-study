@@ -9,4 +9,5 @@ public interface UserDAO {
 	public int insertUser(Map<String,String> user);
 	public int updateUser(Map<String,String> user);
 	public int deleteUser(Map<String,String> user);
+	public Map<String,String> selectUserById(String uiId);
 }

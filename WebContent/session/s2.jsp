@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%session.setMaxInactiveInterval(60); %>
-<%=session.getId() %>
+<%session.setMaxInactiveInterval(60);
+session.setAttribute("id","test"); %>
+
 </body>
 </html>
